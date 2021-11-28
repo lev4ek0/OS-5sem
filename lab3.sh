@@ -61,3 +61,12 @@ chmod u-w /home/test15
 
 echo "lev" > /home/test15/secret_file
 chmod u-w /home/test15/secret_file
+
+
+#удаление
+userdel -r u1
+groupdel g2
+userdel -r u3
+rm -rf /home/test13
+rm -rf /home/test14
+rm -rf /home/test15
