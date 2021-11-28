@@ -110,8 +110,8 @@ mount /dev/vg1/lv1 /mnt/supernewdisk
 
 mkdir /mnt/share #15
 sudo yum install cifs-utils
-mount.cifs //192.168.56.1/shared_linux /mnt/share -o user=USER password=PASSWORD
+mount.cifs //ip/linux /mnt/share -o user=*** password=***
 
 
 sudo nano /etc/fstab #16
-//192.168.56.1/shared_linux /mnt/share cifs user=USER,password=PASSWORD,ro 0 0
+//ip/linux /mnt/share cifs user=***,password=***,ro 0 0
